@@ -31,7 +31,7 @@ while loop:
        loop = False
        break
     #se non c'è il link alla pagina successiva esce dal ciclo oppure recupera il link della pagina successiva
-    if ("paging" in conversation.keys()):
+    if ("paging" in conversation.keys() and 'next' in conversation["paging"]):
         url = conversation["paging"]["next"]
     else:
         loop = False
@@ -79,7 +79,7 @@ for c in conversations:
             loop = False
             break
         # se non c'è il link alla pagina successiva esce dal ciclo oppure recupera il link della pagina successiva
-        if ("paging" in messagesjson.keys()):
+        if ("paging" in messagesjson.keys() and 'next' in messagesjson["paging"]):
             url = messagesjson["paging"]["next"]
         else:
             loop = False
