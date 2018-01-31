@@ -3,5 +3,6 @@
 key.txt
 venv
 venv/
-source/conversation.txt
+conversation.txt
 .DS_Store
+output.txt
