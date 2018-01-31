@@ -39,4 +39,4 @@ Use [this](https://developers.facebook.com/docs/graph-api/overview) link for und
 
 ## Contributor
 
-* (Federico Blancato)[https://github.com/ksnll]
+* [Federico Blancato](https://github.com/ksnll)
