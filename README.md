@@ -22,12 +22,12 @@ Use `pip install -r requirements.txt` for install dependences
 
 Launch with:
 
-    python getConv.py [page-id] [access-token]
+    python facebook_downloader.py -p page_id -a access_token -f ouputfile.txt
 
 Parameter | Description
 --- | ---
-**page-id** | Facebook page id
-**access-token** | Access token with `pages_messaging` grant enabled
+**page_id** | Facebook page id
+**access_token** | Access token with `pages_messaging` grant enabled
 
 Use [Tool Graph API Explorer](https://developers.facebook.com/tools/explorer/) for get page-id and access-token
 
