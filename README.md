@@ -15,13 +15,6 @@ Bugs with the Graph API should be filed on Facebook's [bugtracker](https://devel
 After install python on your laptop, copy a script in any folder and launch it
 
 ### Requirements
-<<<<<<< HEAD
-
-Use `pip install -r requirements.txt` for install dependences 
-
-## Using the script
-=======
->>>>>>> 932d1d1d647d1ce813b5938c1c820098045e6339
 
 Use `pip install -r requirements.txt` for install dependences 
 
@@ -29,19 +22,12 @@ Use `pip install -r requirements.txt` for install dependences
 
 Launch with:
 
-<<<<<<< HEAD
-Parameter | Description
---- | ---
-**page-id** | Facebook page id
-**access-token** | Access token with `pages_messaging` grant enabled
-=======
     python facebook_downloader.py -p page_id -a access_token -f ouputfile.txt
 
 Parameter | Description
 --- | ---
 **page_id** | Facebook page id
 **access_token** | Access token with `pages_messaging` grant enabled
->>>>>>> 932d1d1d647d1ce813b5938c1c820098045e6339
 
 Use [Tool Graph API Explorer](https://developers.facebook.com/tools/explorer/) for get page-id and access-token
 
